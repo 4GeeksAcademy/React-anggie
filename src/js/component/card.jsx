@@ -2,9 +2,9 @@ import React from "react"
 
 const Card = () => {
     return (
-        <div className="container h-100 text-center">
+        <div className="container h-100 text-center mb-4">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                <div className="col">
+                <div className="col mb-3">
                     <div className="card" style={{ width: "19rem" }}>
                         <img src="https://picsum.photos/500/700?random=1" className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -14,7 +14,7 @@ const Card = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col mb-3">
                     <div className="card" style={{ width: "19rem" }}>
                         <img src="https://picsum.photos/500/700?random=2" className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -24,7 +24,7 @@ const Card = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col mb-3">
                     <div className="card" style={{ width: "19rem" }}>
                         <img src="https://picsum.photos/500/700?random=3" className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -34,7 +34,7 @@ const Card = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col mb-3">
                     <div className="card " style={{ width: "19rem" }}>
                         <img src="https://picsum.photos/500/700?random=4" className="card-img-top" alt="..." />
                         <div className="card-body">
