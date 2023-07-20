@@ -1,12 +1,25 @@
 
-/* 
+#navbar {
+    margin-left: 16%;
+    margin-right: 16%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.card-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-*/
+#title {
+    font-size: 5em;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+#carousel {
+    background-color: rgb(235, 235, 235);
+}
+
+#footer {
+    height: 3rem;
+}
